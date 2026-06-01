@@ -11,7 +11,7 @@
 // true  → Snippets 模式（串行执行、单源、仅内存缓存）
 const SNIPPETS_MODE = false;
 
-const ALLOWED_PATH  = '/linuxdo/dns-query';
+const ALLOWED_PATH  = '/ech';
 const OPTIMIZED_TTL = 1;
 
 // ── 调试日志 ─────────────────────────────────────────────────────
@@ -35,7 +35,7 @@ const ECS_IP = '1.2.4.8';
 //   结果用于 AAAA 记录回答 & HTTPS ipv6hint。
 //   含 ":" 的项视为 IPv6 地址直接使用。
 const ipListV4 = {
-  'cf': '91.193.58.2,91.193.58.21',
+  'cf': '104.18.11.118,91.193.58.2,91.193.58.21',
   // 'mylist': '1.2.3.4,example.com,5.6.7.8',
 };
 
